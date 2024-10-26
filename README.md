@@ -15,7 +15,13 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
+    gh
+    df
+    dfdf
 
+    df
 ## Output:
+![exp2](<Screenshot 2024-10-18 211813.png>)
 
 ## Result:
+executed
