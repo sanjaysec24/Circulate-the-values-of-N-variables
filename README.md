@@ -19,19 +19,18 @@ Using the slicing concept rotate the list
 # Developed by:sanjay kumar B
 # Register no:212224230242
 def circulate():
-   
-    arr = eval(input())   
-    n = int(input())      
-    
-    
-    n = n % len(arr) 
-    result = arr[n:] + arr[:n]
-    
-    print("After circulating the values are:", result)
+    a=eval(input())
+    b=int(input())
+    for i in range(b):
+        temp=a.pop(0)
+        a.append(temp)
+    print("After circulating the values are:",a)
+        
+        
 ```
 ## Output:
 <img width="1353" height="401" alt="image" src="https://github.com/user-attachments/assets/b7eec5b3-982f-478d-a0d9-08b962a16938" />
 
 
 ## Result:
-executed
+Thus the program to circulate the n variables using function is written and verified using python programming.
