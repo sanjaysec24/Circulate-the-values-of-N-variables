@@ -15,13 +15,23 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
-    gh
-    df
-    dfdf
-
-    df
+```
+# Developed by:sanjay kumar B
+# Register no:212224230242
+def circulate():
+   
+    arr = eval(input())   
+    n = int(input())      
+    
+    
+    n = n % len(arr) 
+    result = arr[n:] + arr[:n]
+    
+    print("After circulating the values are:", result)
+```
 ## Output:
-![exp2](<Screenshot 2024-10-18 211813.png>)
+<img width="1353" height="401" alt="image" src="https://github.com/user-attachments/assets/b7eec5b3-982f-478d-a0d9-08b962a16938" />
+
 
 ## Result:
 executed
